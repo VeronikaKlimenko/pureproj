@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pure Skincare</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="div-on-top">
+        <div><img src="images/pure.png" alt="Logo of the company" /></div>
+        <div>
+          <input type="text" placeholder="Пошук..." />
+          <img src="images/iconsearch.svg" alt="search icon" />
+        </div>
+        <div>
+          <img src="images/icon_user.svg" alt="profile icon" />
+          <img src="images/icon_heart.svg" alt="heart icon" />
+          <img src="images/icon_basket.svg" alt="basket icon" />
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#new-items">новинки</a></li>
+          <li><a href="#about">про нас</a></li>
+          <li><a href="#consultation">консультація</a></li>
+          <li><a href="#reviews">відгуки</a></li>
+          <li><a href="#catalog">каталог</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="full-screen-image" id="top-element"></div>
+      <section class="scroll-section">
+        <div>
+          <img src="images/arrow_left.svg" alt="left arrow" />
+          <img
+            src="images/cleanser.png"
+            alt="Product image"
+            width="600px"
+            height="600px"
+          />
+          <img src="images/arrow_right.svg" alt="right arrow" />
+        </div>
+      </section>
+      <section id="new-items" class="new-items-section">
+        <div class="new-items-container">
+          <div class="item">
+            <img src="images/newmask.jpg" alt="New mask image" />
+            <h2>маска</h2>
+            <div class="item-bottom">
+              <h3>70 грн</h3>
+              <img src="images/icon_heart.svg" alt="heart icon" />
+              <img src="images/icon_basket.svg" alt="basket icon" />
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/newfoam.jpg" alt="New foam image" />
+            <h2>пінка</h2>
+            <div class="item-bottom">
+              <h3>210 грн</h3>
+              <img src="images/icon_heart.svg" alt="heart icon" />
+              <img src="images/icon_basket.svg" alt="basket icon" />
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/newtoner.jpg" alt="New foam image" />
+            <h2>тонер-міст</h2>
+            <div class="item-bottom">
+              <h3>360 грн</h3>
+              <img src="images/icon_heart.svg" alt="heart icon" />
+              <img src="images/icon_basket.svg" alt="basket icon" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="image-container">
+          <img src="images/aboutusspot1.png" alt="Image 1" class="image-left" />
+          <h1>про нас</h1>
+          <img src="images/aboutuspot.png" alt="Image 2" class="image-right" />
+        </div>
+
+        <div class="text-container">
+          <p>
+            Ласкаво просимо в Pure – ваш партнер у світі натуральної краси! Наша
+            компанія спеціалізується на виробництві та продажу натуральної
+            косметики, яка виражає найвищі стандарти якості та безпеки.
+            Знаходьте нас у нашому магазині у Києві, або зручно замовляйте
+            товари онлайн з доставкою через Нову пошту чи Укрпошту.
+          </p>
+          <p>
+            Наші експерти, які тішаться допомагати вам, завжди на зв'язку –
+            просто зателефонуйте, завітайте до магазину чи залиште заявку на
+            сайті для отримання безкоштовної консультації щодо догляду за вашою
+            шкірою. Вони готові допомогти вам позбутися недоліків шкіри та
+            знайти ідеальний догляд.
+          </p>
+          <p>
+            Наші продукти відзначаються уважним відбором складників, які
+            гарантують природність і безпечність. Ми пишаємося нашою репутацією
+            та відданістю клієнтам. Pure – це не лише косметика, але й
+            можливість кожному отримати обличчя своєї мрії. Давайте разом
+            створимо ваш ідеальний образ краси!
+          </p>
+        </div>
+      </section>
+      <section class="consultation-section">
+        <h1 id="consultation">отримай консультацію</h1>
+        <div class="form-container">
+          <div class="item-in-consultation">
+            <h2>
+              Заповніть форму щоб отримати консультацію від наших спеціалістів
+            </h2>
+            <input type="text" placeholder="Ім'я" />
+            <input type="text" placeholder="Телефон" />
+            <input type="text" placeholder="Електронна пошта" />
+            <button type="button">Зв'язатись</button>
+          </div>
+          <div class="item-in-consultation">
+            <img src="images/consultgirl.png" alt="Picture of girl with acne" />
+          </div>
+        </div>
+      </section>
+      <section id="reviews" class="reviews-section">
+        <div class="image-container-review">
+          <img
+            src="images/smilecream.png"
+            alt="Image 1"
+            class="image-left-review"
+          />
+          <h1>відгуки</h1>
+          <img
+            src="images/sadcream.png"
+            alt="Image 2"
+            class="image-right-review"
+          />
+        </div>
+        <div class="reviews-container">
+          <div class="wrapper-for-rewiews">
+            <div class="item-in-reviews">
+              <img src="images/user1.png" alt="Photo of Anastasia" />
+              <h2>Анастасія</h2>
+              <p>
+                Відвідала магазин Pure у Києві, де спеціалісти на місці люб'язно
+                провели діагностику обличчя та підібрали догляд, який дав
+                позитивні результати всього через два місяці. Спочатку була
+                чистка шкіри через наявність у догляді кислот, але мене про це
+                попередили заздалегідь тому я продовжувала свій курс допоки не
+                побачила позитивні зміни. Моя шкіра стала чистішою та
+                здоровішою. Використовую продукти бренду щодня, і не можу уявити
+                кращого догляду для моєї шкіри. Якщо комусь цікаво мені
+                призначили комплексний догляд: міцелярний гель, м'яку пінку,
+                тонік з центелою, сироватку з азелаїновою кислотою, денний крем
+                зі спф50, молочко для обличчя, і нічний крем.
+              </p>
+            </div>
+            <hr />
+            <div class="item-in-reviews">
+              <img src="images/user2.png" alt="Photo of Marina" />
+              <h2>Марина</h2>
+              <p>
+                Дуже задоволена обслуговуванням компанії Pure! Заповнила форму
+                на їхньому сайті, і мені дуже швидко перезвонили. Попросили
+                надіслати фото моєї шкіри та провели докладну консультацію.
+                Отримала рекомендації щодо догляду, і я вже бачу покращення.
+                зморшки стали менш помітними, а шкіра стала більш зволоженою.
+                Дякую команді Pure за індивідуальний підхід та ефективні
+                рекомендації. З нетерпінням чекаю подальших покращень
+              </p>
+            </div>
+          </div>
+          <div class="switcher-under-review">
+            <img src="images/icon_switcher.svg" alt="Scroll for reviews" />
+          </div>
+          <div class="send-review">
+            <h2>Додати відгук</h2>
+            <input type="text" placeholder="Ім'я" />
+            <textarea placeholder="Відгук"></textarea>
+            <button type="button">Додати</button>
+          </div>
+        </div>
+      </section>
+      <section id="catalog" class="catalog-section">
+        <h1>каталог</h1>
+        <div class="catalog-container">
+          <div class="item">
+            <img src="images/cream.jpg" alt="Cream image" />
+            <h2>нічний крем</h2>
+            <div class="item-bottom">
+              <h3>650 грн</h3>
+              <img src="images/icon_heart.svg" alt="heart icon" />
+              <img src="images/icon_basket.svg" alt="basket icon" />
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/serum.jpg" alt="Serum image" />
+            <h2>сироватка</h2>
+            <div class="item-bottom">
+              <h3>420 грн</h3>
+              <img src="images/icon_heart.svg" alt="heart icon" />
+              <img src="images/icon_basket.svg" alt="basket icon" />
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/spot_gel.jpg" alt="Spot gel image" />
+            <h2>точковий гель</h2>
+            <div class="item-bottom">
+              <h3>270 грн</h3>
+              <img src="images/icon_heart.svg" alt="heart icon" />
+              <img src="images/icon_basket.svg" alt="basket icon" />
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/spf.jpg" alt="SPF image" />
+            <h2>спф крем</h2>
+            <div class="item-bottom">
+              <h3>700 грн</h3>
+              <img src="images/icon_heart.svg" alt="heart icon" />
+              <img src="images/icon_basket.svg" alt="basket icon" />
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/azelaicserum.jpg" alt="Azelain serum image" />
+            <h2>азелаїнова сироватка</h2>
+            <div class="item-bottom">
+              <h3>550 грн</h3>
+              <img src="images/icon_heart.svg" alt="heart icon" />
+              <img src="images/icon_basket.svg" alt="basket icon" />
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/misellarwater.jpg" alt="Micellar water image" />
+            <h2>міцелярна вода</h2>
+            <div class="item-bottom">
+              <h3>300 грн</h3>
+              <img src="images/icon_heart.svg" alt="heart icon" />
+              <img src="images/icon_basket.svg" alt="basket icon" />
+            </div>
+          </div>
+        </div>
+        <div class="switcher-under-catalog">
+          <img src="images/icon_switcher.svg" alt="switcher for catalog" />
+        </div>
+      </section>
+
+      <div class="scroll-to-top">
+        <a href="#top-element"
+          ><img src="images/icon_scroll.svg" alt="Scroll to Top"
+        /></a>
+      </div>
+    </main>
+    <footer>
+      <div class="wrapper-footer">
+        <div>
+          <img src="images/icon_location.svg" alt="location icon" />
+          <h3>Адреса магазину</h3>
+        </div>
+        <div>
+          <img src="images/icon_phone.svg" alt="phone icon" />
+          <h3><a href="tel:050-768-60-32">050 768 60 32</a></h3>
+        </div>
+        <div>
+          <img src="images/icon_info.svg" alt="info icon" />
+          <h3>Інформація</h3>
+        </div>
+        <div>
+          <h3>ПРАЦЮЄМО З 09:00 ДО 18:00. ПН - НД</h3>
+        </div>
+        <div>
+          <img src="images/icon_insta.svg" alt="insta icon" />
+        </div>
+        <div><img src="images/icon_telegram.svg" alt="telegram icon" /></div>
+      </div>
+    </footer>
+  </body>
+</html>
